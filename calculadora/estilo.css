@@ -4,7 +4,12 @@
     padding: 0px;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.671);
+    width: 96vw;
+    height: 95vh;
+   background:lightgray url("pexels-karolina-grabowska-5412081.jpg") center center fixed no-repeat;
+   background-size: cover;
+   
+
 }
 #res{
     text-indent: 10px;
@@ -14,8 +19,9 @@ body{
     box-shadow: inset 3px 2px 7px rgba(0, 0, 0, 0.445);
     background-color: white
     ;
+    margin-bottom: 10px;
     width: 300px;
-    height: 300px;
+    height: 200px;
 }
 div{
    
@@ -27,6 +33,7 @@ main{
     margin:auto;
    margin-top: 30px ;
     width: 320px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.473);
     border-color: black;
     border-style: ridge;
    background-color: gainsboro;
@@ -36,6 +43,7 @@ div>input{
     color: white;
     background-color: gray;
   border-radius: 10px ;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
    font-size: 2em;
   width: 60px;
   height:60px;
@@ -44,6 +52,7 @@ div>input{
 :hover.destaque{
     color: black;
     background-color: orange;
+    transition: 0.3s;
 }
 .pfila{
     padding-left:20px ;
@@ -63,9 +72,15 @@ div>input{
    margin: auto;
 }
 #x{
-   
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521); 
+   font-size: 1.8em;
    border-radius: 60px 10px 10px 60px;
    border-style: hidden;
     height: 40px;
 
+}
+:hover.material-symbols-outlined{
+    color: black;
+    background-color: orange;
+    transition: 0.3s;
 }
