@@ -17,11 +17,10 @@ body{
    font-size: 2em;
     border-radius:8px 40px 3px 3px;
     box-shadow: inset 3px 2px 7px rgba(0, 0, 0, 0.445);
-    background-color: white
-    ;
+    background-color: rgb(68, 82, 66);
     margin-bottom: 10px;
     width: 300px;
-    height: 200px;
+    height: 80px;
 }
 div{
    
@@ -31,7 +30,7 @@ div{
 main{
     padding-top: 20px;
     margin:auto;
-   margin-top: 30px ;
+   margin-top: 100px ;
     width: 320px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.473);
     border-color: black;
